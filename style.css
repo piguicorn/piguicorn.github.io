@@ -151,9 +151,8 @@ a {
 		padding-left: 1.3em;
 	}
 
-	.wrapper,
-	.about p {
-		margin-left: 1em;
+	.wrapper {
+		margin-left: 1.5em;
 	}
 
 	.mode {
