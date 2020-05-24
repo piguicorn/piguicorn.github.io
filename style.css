@@ -19,7 +19,7 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-img {
+header img {
 	width: 180px;
 }
 
@@ -49,6 +49,10 @@ li {
 
 ul li {
 	list-style: none;
+}
+
+li + li {
+	margin-top: 1em;
 }
 
 ul li::before {
@@ -120,8 +124,14 @@ a {
   margin-bottom: 60px;
 }
 
+.gif {
+	max-width: 90%;
+	margin-top: .5em;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 40rem) {
+
   section {
     margin: 10px;
   }
@@ -159,5 +169,7 @@ a {
 		margin-left: 50%;
 		transform: translateX(-50%);
 	}
+
 }
+
 
