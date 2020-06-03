@@ -1,3 +1,4 @@
+/* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;800&family=Playfair+Display:wght@600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
@@ -17,6 +18,14 @@ body {
   color: #222;
 	background: var(--bg-color);
 	font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+header {
+  text-align: center;
 }
 
 header img {
@@ -63,10 +72,6 @@ ul li::before {
 	display: inline-block;	
 }
 
-header {
-  text-align: center;
-}
-
 section {
   margin: 30px;
 }
@@ -74,10 +79,6 @@ section {
 main {
   max-width: 800px;
   margin: 60px auto;
-}
-
-a {
-  color: var(--primary-color);
 }
 
 .project-link {
@@ -151,10 +152,10 @@ a {
 
 @media (min-width: 40rem) {
 	.projects,
-	.about,
-	.skills {
+	.about {
 		display: flex;
 	}
+
 	.heading {
 		min-width: 20%;
 		border-right: 5px solid var(--primary-color);
@@ -164,12 +165,6 @@ a {
 	.wrapper {
 		margin-left: 1.5em;
 	}
-
-	.mode {
-		margin-left: 50%;
-		transform: translateX(-50%);
-	}
-
 }
 
 
