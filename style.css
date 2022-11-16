@@ -96,10 +96,6 @@ ul li:hover a {
 	opacity: .6;
 }
 
-ul li:hover::marker {
-
-}
-
 section {
   margin: 30px;
 }
